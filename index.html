@@ -1,138 +1,231 @@
 <!doctype html>
 <html lang="fr" data-bs-theme="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discommunity est un serveur Discord communautaire Français">
-    <title>Discommunity</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="icon" href="assets/images/logo.png">
-</head>
-<body>
-<header class="w-100 sticky-top">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discommunity est un serveur Discord communautaire Français">
+        <title>Discommunity</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="icon" href="assets/images/logo.png">
+        <style>
+            section {
+                scroll-margin-top: 70px;
+            }
+        </style>
+    </head>
+    <body>
+    <header class="w-100 sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+    <!--                        <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>-->
+                            <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#a-propos">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fonctionnalites">Fonctionnalités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programmes">Programmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipe">L'équipe</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-sm btn-outline-success ms-auto" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="accueil">
+            <div class="text-center mt-4">
+                <img src="assets/images/logo.png" alt="Logo de Discommunity" class="img-fluid" style="max-height: 128px;">
+                <h1 class="mt-3">Discommunity</h1>
+                <a class="btn btn-success mt-2" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
+                <img src="assets/images/server.png" alt="Capture d'\u00e9cran" class="img-fluid mt-3">
+            </div>
+            <section class="mt-5" id="a-propos">
+                <h2 class="text-center">À propos</h2>
+                <p class="text-center mt-4"><strong>Discommunity</strong> est un serveur Discord communautaire Français rassemblant tes centres d'intérêts au même endroit.</p>
+                <p class="text-center text-muted">Disponible depuis le vendredi 6 mars 2020 !</p>
+                <img src="assets/images/functions/interest.png" alt="Centre d'intérêts" class="img-fluid mt-2">
+            </section>
+            <section class="mt-5" id="fonctionnalites">
+                <h2 class="text-center mb-4">Fonctionnalités</h2>
+                <div class="row g-3">
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Promotions de projets</h3>
+                            <img src="assets/images/functions/projects.png" alt="Projets" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Publicités</h3>
+                            <img src="assets/images/functions/advertising.png" alt="Publicité" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Mini-jeux</h3>
+                            <img src="assets/images/functions/games.png" alt="Mini-jeux" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Sondages</h3>
+                            <img src="assets/images/functions/poll.png" alt="Sondages" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Concours</h3>
+                            <img src="assets/images/functions/giveaways.png" alt="Concours" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <h3>Salons vocaux privés</h3>
+                            <img src="assets/images/functions/voice-channel.png" alt="Salons vocaux privés" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-5" id="programmes">
+                <h2 class="text-center">Programmes</h2>
+                <p class="text-center">Découvrez nos différents programmes.</p>
+                <div class="row g-3 justify-content-center">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="assets/images/programs/partner.png" class="card-img-top" alt="Programme partenaire">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Programme partenaire</h5>
+                                <p class="card-text text-center">Les partenariats sont un excellent moyen de promouvoir votre projet et de soutenir ce serveur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="assets/images/programs/recruit.png" class="card-img-top" alt="Programme recrutement">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Programme recrutement</h5>
+                                <p class="card-text text-center">Si vous recherchez une place dans l'équipe, nous sommes aptes à vous proposer un grade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="assets/images/cards/soon.png" class="card-img-top" alt="Programme fournisseur">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Programme fournisseur</h5>
+                                <p class="card-text text-center">Proposez des lots pour les concours (giveaways) ou pour les événements avec ou sans conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center mt-5" id="equipe">
+                <h2>L'équipe</h2>
+                <div class="row g-3">
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/enio.png" alt="Enio" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Enio Aiello</h3>
+                            <p class="text-muted">Fondateur</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/kalarma.png" alt="Kalarma" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Kalarma</h3>
+                            <p class="text-muted">Co-fondateur</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/labonisk.png" alt="Labonisk" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Labonisk</h3>
+                            <p class="text-muted">Responsable</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/macintosh-g3.png" alt="Macintosh G3" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Macintosh G3</h3>
+                            <p class="text-muted">Modérateur</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/mildatum.png" alt="Mildatum" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Mildatum</h3>
+                            <p class="text-muted">Administrateur</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/naylor.png" alt="Naylor" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Naylor</h3>
+                            <p class="text-muted">Responsable</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/pedro.png" alt="Pedro the ultimate racoon" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Pedro the ultimate racoon</h3>
+                            <p class="text-muted">Responsable</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/raph.png" alt="Raph." class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Raph.</h3>
+                            <p class="text-muted">Administrateur</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-center">
+                            <img src="assets/images/staff/syxpi.png" alt="Syxpi" class="rounded-circle img-thumbnail w-50">
+                            <h3 class="mt-2 mb-2">Syxpi</h3>
+                            <p class="text-muted">Responsable</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center mt-5">
+                <h2>Convaincu ?</h2>
+                <p>Tu souhaites rejoindre pour en découvrir plus ? Nous serons ravis de t'accueillir !</p>
+                <a class="btn btn-success" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
+            </section>
+        </div>
+    </main>
+    <footer class="container py-4 border-top mt-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="index.html" class="me-2 text-muted">
+                    <img src="assets/images/logo.png" alt="Logo de Discommunity" height="30">
+                </a>
+                <span class="text-muted">&copy; 2025 Discommunity</span>
+            </div>
+            <a class="text-muted" href="https://discord.gg/uxhTP3fv6F" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                    <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+                </svg>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="btn btn-sm btn-outline-success ms-auto" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
-            </div>
         </div>
-    </nav>
-</header>
-<main>
-    <div class="container">
-        <div class="text-center mt-4">
-            <img src="assets/images/logo.png" alt="Logo de Discommunity" class="img-fluid" style="max-height: 128px;">
-            <h1 class="mt-3">Discommunity</h1>
-            <a class="btn btn-success mt-2 w-25" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
-            <img src="assets/images/server.png" alt="Capture d'\u00e9cran" class="img-fluid mt-3">
-        </div>
-        <section class="mt-5">
-            <h2 class="text-center">À propos</h2>
-            <p class="text-center"><strong>Discommunity</strong> est un serveur Discord communautaire Français rassemblant tes centres d'intérêts au même endroit.</p>
-            <img src="assets/images/functions/interest.png" alt="Centre d'intérêts" class="img-fluid mt-2">
-        </section>
-        <section class="mt-5">
-            <h2 class="text-center mb-4">Fonctionnalités</h2>
-            <div class="row g-3">
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Promotions de projets</h3>
-                        <img src="assets/images/functions/projects.png" alt="Projets" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Publicités</h3>
-                        <img src="assets/images/functions/advertising.png" alt="Publicité" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Mini-jeux</h3>
-                        <img src="assets/images/functions/games.png" alt="Mini-jeux" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Sondages</h3>
-                        <img src="assets/images/functions/poll.png" alt="Sondages" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Concours</h3>
-                        <img src="assets/images/functions/giveaways.png" alt="Concours" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="text-center">
-                        <h3>Salons vocaux privés</h3>
-                        <img src="assets/images/functions/voice-channel.png" alt="Salons vocaux privés" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mt-5">
-            <h2 class="text-center">Programmes</h2>
-            <p class="text-center">Découvrez nos différents programmes.</p>
-            <div class="row g-3 justify-content-center">
-                <div class="col-12 col-md-4">
-                    <div class="card">
-                        <img src="assets/images/programs/partner.png" class="card-img-top" alt="Programme partenaire">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Programme partenaire</h5>
-                            <p class="card-text text-center">Les partenariats sont un excellent moyen de promouvoir votre projet et de soutenir ce serveur.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card">
-                        <img src="assets/images/programs/recruit.png" class="card-img-top" alt="Programme recrutement">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Programme recrutement</h5>
-                            <p class="card-text text-center">Si vous recherchez une place dans l'équipe, nous sommes aptes à vous proposer un grade.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card">
-                        <img src="assets/images/cards/soon.png" class="card-img-top" alt="Programme fournisseur">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Programme fournisseur</h5>
-                            <p class="card-text text-center">Proposez des lots pour les concours (giveaways) ou pour les événements avec ou sans conditions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="text-center mt-5">
-            <h2>Convaincu ?</h2>
-            <p>Tu souhaites rejoindre pour en découvrir plus ? Nous serons ravis de t'accueillir !</p>
-            <a class="btn btn-success w-25" href="https://discord.gg/uxhTP3fv6F" target="_blank">Rejoindre</a>
-        </section>
-    </div>
-</main>
-<footer class="container py-4 border-top mt-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center">
-            <a href="index.html" class="me-2 text-muted">
-                <img src="assets/images/logo.png" alt="Logo de Discommunity" height="30">
-            </a>
-            <span class="text-muted">&copy; 2025 Discommunity</span>
-        </div>
-        <a class="text-muted" href="https://discord.gg/uxhTP3fv6F" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
-            </svg>
-        </a>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="assets/js/script.js"></script>-->
 </body>
 </html>
